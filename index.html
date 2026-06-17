@@ -1,1 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel David Hess | Projekt Pergola</title>
+    <style>
+        :root {
+            --primary-color: #2e5a44; /* Elegantes Tannengrün */
+            --text-color: #2c3e50;
+            --light-bg: #f8f9fa;
+            --border-color: #e2e8f0;
+        }
 
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            color: #1a1a1a;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            margin-top: 0;
+            font-weight: 400;
+        }
+
+        .project-description {
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .plan-section {
+            margin-bottom: 60px;
+        }
+
+        .plan-header {
+            margin-bottom: 15px;
+        }
+
+        .plan-header h3 {
+            font-size: 1.4rem;
+            margin-bottom: 5px;
+            color: #1a1a1a;
+        }
+
+        .plan-header p {
+            font-style: italic;
+            color: #666;
+            margin-top: 0;
+            font-size: 0.95rem;
+        }
+
+        .image-container {
+            background-color: var(--light-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            transition: transform 0.2s ease;
+        }
+
+        .image-container:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.04);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--border-color);
+            margin: 40px 0;
+        }
+
+        .links-section {
+            background-color: var(--light-bg);
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #214231;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Samuel David Hess</h1>
+        <p class="subtitle">Freiraumplanung & Technische Detailplanung</p>
+    </header>
+
+    <main>
+        <section class="project-description">
+            <h2>Projekt: Pergola & Rosengarten</h2>
+            <p>Hier finden Sie die aktuellen Entwurfszeichnungen, den Lageplan sowie den detaillierten Pflanzplan für die gestalterische Ausführung der Außenanlagen.</p>
+        </section>
+
+        <hr>
+
+        <section class="plan-section">
+            <div class="plan-header">
+                <h3>01 | Aktueller Lageplan</h3>
+                <p>Gesamtübersicht und räumliche Einordnung des Projektgebiets.</p>
+            </div>
+            <div class="image-container">
+                <img src="projekt-lageplan.png" alt="Projekt Lageplan">
+            </div>
+        </section>
+
+        <section class="plan-section">
+            <div class="plan-header">
+                <h3>02 | Entwurfszeichnung Pergola</h3>
+                <p>Detailansicht und konstruktiver Schnitt der Pergola-Anlage.</p>
+            </div>
+            <div class="image-container">
+                <img src="projekt-pergola.png" alt="Pergola Entwurf">
+            </div>
+        </section>
+
+        <section class="plan-section">
+            <div class="plan-header">
+                <h3>03 | Entwurf Rosengarten</h3>
+                <p>Konzeptionelle Gestaltung und Wegeführung im Rosengarten.</p>
+            </div>
+            <div class="image-container">
+                <img src="Rosengarten.png" alt="Rosengarten Entwurf">
+            </div>
+        </section>
+
+        <section class="plan-section">
+            <div class="plan-header">
+                <h3>04 | Detaillierter Pflanzplan</h3>
+                <p>Artauswahl, Habitusdarstellung und exakte Platzierung der Vegetation.</p>
+            </div>
+            <div class="image-container">
+                <img src="Pflanzplan.png" alt="Pflanzplan Entwurf">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="links-section">
+            <h3>🌐 Dokumentation & Verweise</h3>
+            <p>Für zusätzliche Projektinformationen und weitere Arbeiten besuchen Sie die offizielle Projektseite:</p>
+            <a href="https://deine-unterseite.dgg1822.de" class="btn" target="_blank">Zur Webseite DGG 1822</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Samuel David Hess. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
